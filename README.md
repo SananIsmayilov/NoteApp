@@ -15,11 +15,11 @@ dependencies { <br/>
    `implementation("androidx.room:room-ktx:$room_version")`<br/>
 
 // Coroutines<br/>
-  `val coroutines_version = "1.7.1" `<br/>
+  val coroutines_version = "1.7.1" <br/>
   `implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")`<br/>
 
 // Navigation Component<br/>
-  `val nav_version = "2.7.0-alpha01" `// same as in build.gradle (:project) <br/>
+  val nav_version = "2.7.0-alpha01" // same as in build.gradle (:project) <br/>
   `implementation("androidx.navigation:navigation-fragment-ktx:$nav_version") `<br/>
  `implementation("androidx.navigation:navigation-ui-ktx:$nav_version") `<br/> }<br/>
 
